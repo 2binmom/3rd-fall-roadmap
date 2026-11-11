@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>투빈맘's 초3 2학기 엄마표 로드맵 🍂</title>
+<link rel="icon" href="character.png">
+<meta name="description" content="영어는 2점대 책 무한반복, 수학은 아이 속도에 맞춘 선행! 초3 경빈이의 2학기 엄마표 루틴과 교재를 그대로 정리했어요">
+<meta property="og:title" content="투빈맘's 초3 2학기 엄마표 로드맵">
+<meta property="og:description" content="영어는 2점대 책 무한반복, 수학은 아이 속도에 맞춘 선행! 초3 경빈이의 2학기 엄마표 루틴과 교재를 그대로 정리했어요">
+<meta property="og:image" content="https://2binmom.github.io/3rd-fall-roadmap/og-image.png">
+<meta property="og:url" content="https://2binmom.github.io/3rd-fall-roadmap/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="투빈맘's 초3 2학기 엄마표 로드맵">
+<meta name="twitter:description" content="영어는 2점대 책 무한반복, 수학은 아이 속도에 맞춘 선행! 초3 경빈이의 2학기 엄마표 루틴과 교재를 그대로 정리했어요">
+<meta name="twitter:image" content="https://2binmom.github.io/3rd-fall-roadmap/og-image.png">
+<style>
+  @font-face{
+    font-family:'Jalnan';
+    src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight:normal; font-style:normal; font-display:swap;
+  }
+  :root{
+    --pink:#FF6B8B; --pink-light:#FF9EB5; --pink-deep:#E0567A; --pink-bg:#FFE9EF;
+    --ink:#3A2A33; --sub:#8A7580; --line:#F5DEE6;
+    --card:#FFFFFF; --bg:#FFF8F6;
+    --m:#7FA8E8; --m-bg:#EAF1FD;
+    --e:#5EBF9A; --e-bg:#E6F7F0;
+    --k:#E8A34E; --k-bg:#FFF3E2;
+    --radius:18px;
+    --shadow:0 2px 12px rgba(224,86,122,0.09);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+    padding-bottom:calc(64px + env(safe-area-inset-bottom));
+  }
+  img{max-width:100%; display:block;}
+  a{color:inherit;}
+  .wrap{max-width:860px; margin:0 auto; padding:0 18px 50px;}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--pink); outline-offset:2px; border-radius:4px;}
+  @media (prefers-reduced-motion:reduce){ *{transition:none !important;} }
+
+  /* ── 헤더 ── */
+  header.hero{
+    background:linear-gradient(160deg,#FFE0C4 0%,#FFC6C6 55%,#FFB9CB 100%);
+    padding:34px 18px 32px; text-align:center;
+  }
+  header.hero .logo{width:128px; margin:0 auto 6px;}
+  header.hero .badge{
+    display:inline-block; background:#fff; border:1px solid rgba(224,86,122,0.32);
+    border-radius:999px; padding:6px 15px; font-size:13px; color:var(--pink-deep);
+    margin-bottom:13px; font-weight:700;
+  }
+  header.hero h1{
+    font-family:'Jalnan',-apple-system,sans-serif; font-weight:normal;
+    font-size:clamp(21px,5vw,32px); margin:0 0 10px; line-height:1.48;
+  }
+  header.hero .hero-sub{
+    font-family:'Jalnan',-apple-system,sans-serif; color:#6B4E58;
+    font-size:14px; line-height:1.8; margin:0 auto 8px; max-width:520px;
+  }
+  .hero-actions{display:flex; align-items:center; justify-content:center; gap:8px; flex-wrap:wrap;}
+  .insta,.share-btn{
+    display:inline-flex; align-items:center; gap:6px; font-size:14px; font-weight:700;
+    text-decoration:none; border:1.5px solid transparent;
+    padding:9px 17px; border-radius:999px; cursor:pointer; font-family:inherit;
+  }
+  .insta{color:#fff; background:var(--pink-deep);}
+  .share-btn{color:#3A2A33; background:#FEE500;}
+  .share-btn.copied{background:var(--pink-deep); color:#fff;}
+
+  /* ── 인트로 ── */
+  .intro-box{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px 22px; font-size:14.5px; color:#5A4650; line-height:1.9;
+  }
+  .intro-box strong{color:var(--pink-deep);}
+  .goal-box{
+    background:var(--pink-bg); border:1px solid #FFC6D6; border-radius:16px;
+    padding:16px 19px; margin-top:14px; font-size:13.5px; line-height:1.9; color:#8A5B6B;
+  }
+  .goal-box b{display:block; color:var(--pink-deep); font-size:14px; margin-bottom:6px;}
+
+  /* ── 탭 ── */
+  nav.toc{
+    position:sticky; top:0; z-index:50; background:rgba(255,248,246,0.94);
+    backdrop-filter:blur(6px); border-bottom:1px solid var(--line);
+    display:flex; gap:7px; padding:10px 12px; margin-top:24px;
+    flex-wrap:nowrap; overflow-x:auto; justify-content:flex-start;
+    scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; scrollbar-width:none;
+  }
+  nav.toc::-webkit-scrollbar{display:none;}
+  nav.toc a{
+    font-family:'Jalnan',-apple-system,sans-serif; font-size:17px; text-decoration:none;
+    padding:9px 17px; border-radius:999px; border:1px solid var(--line);
+    background:#FFF; color:var(--pink-deep); white-space:nowrap; transition:all .15s;
+    scroll-snap-align:center; flex:0 0 auto;
+  }
+  nav.toc a:hover{background:var(--pink-bg); border-color:var(--pink-light);}
+  nav.toc a.active{background:var(--pink); border-color:var(--pink); color:#fff;}
+  @media (min-width:760px){ nav.toc{justify-content:center;} }
+
+  section.tab-section{display:none; padding:28px 0 10px;}
+  section.tab-section.active{display:block;}
+
+  /* ── 과목 헤더 ── */
+  .sub-head{
+    border-radius:var(--radius); padding:18px 20px; margin-bottom:16px;
+    border:1.5px solid var(--line); box-shadow:var(--shadow);
+  }
+  .sub-head.m{background:var(--m-bg); border-color:#CFE3F7;}
+  .sub-head.e{background:var(--e-bg); border-color:#C6EBDC;}
+  .sub-head.k{background:var(--k-bg); border-color:#FAE0BC;}
+  .sub-head.g{background:var(--pink-bg); border-color:#FFC6D6;}
+  .sub-head .kick{
+    display:inline-block; font-size:11.5px; font-weight:800; padding:4px 12px;
+    border-radius:999px; color:#fff; margin-bottom:8px;
+  }
+  .sub-head.m .kick{background:var(--m);} .sub-head.e .kick{background:var(--e);}
+  .sub-head.k .kick{background:var(--k);} .sub-head.g .kick{background:var(--pink-deep);}
+  .sub-head h2{font-size:20px; margin:0 0 7px;}
+  .sub-head p{font-size:13.5px; color:#6B5A62; margin:0; line-height:1.8;}
+  .sub-head p b{color:var(--ink);}
+
+  /* ── 클릭 안내 ── */
+  .click-hint{
+    text-align:center; font-size:15px; font-weight:800; color:var(--pink-deep);
+    background:var(--pink-bg); padding:13px 16px; border-radius:var(--radius);
+    margin-bottom:18px;
+  }
+  @media (max-width:600px){ .click-hint{font-size:13.5px; padding:12px 14px;} }
+
+  /* ── 요일 시간표 ── */
+  .week{display:flex; flex-direction:column; gap:8px; margin-bottom:6px;}
+  .week-row{
+    display:flex; align-items:center; gap:11px;
+    background:#FFFDFC; border:1px solid var(--line); border-radius:13px; padding:11px 13px;
+  }
+  .week-day{
+    flex-shrink:0; width:52px; text-align:center; font-size:12px; font-weight:800;
+    color:#fff; background:var(--k); border-radius:9px; padding:5px 2px;
+  }
+  .week-what{font-size:13px; font-weight:700; line-height:1.5;}
+  .week-what span{display:block; font-size:11.5px; font-weight:600; color:var(--sub); margin-top:2px;}
+
+  .block-label{
+    font-size:clamp(17px,3.4vw,21px); font-weight:800; margin:8px 0 14px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .block-label .swipe{margin-left:auto; font-size:11.5px; color:var(--sub); font-weight:700;}
+  .progress-wrap{
+    display:flex; align-items:center; gap:10px; font-size:16px; font-weight:700;
+    color:var(--ink); margin-bottom:22px;
+  }
+  .progress-bar{flex:1; height:8px; background:var(--pink-bg); border-radius:999px; overflow:hidden;}
+  .progress-bar > i{display:block; height:100%; width:0%; border-radius:999px; transition:width .3s; background:var(--pink);}
+  .reset-btn{
+    background:none; border:1px solid var(--pink-deep); color:var(--pink-deep);
+    font-weight:700; font-size:12px; border-radius:999px; padding:4px 12px;
+    cursor:pointer; white-space:nowrap; font-family:inherit;
+  }
+  .reset-btn:hover{background:var(--pink-deep); color:#fff;}
+
+  /* ── 캐러셀 ── */
+  .carousel-wrap{position:relative;}
+  .rail{
+    display:flex; gap:12px; overflow-x:auto; padding:2px 2px 12px;
+    scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch;
+  }
+  .rail::-webkit-scrollbar{height:7px;}
+  .rail::-webkit-scrollbar-track{background:transparent;}
+  .rail::-webkit-scrollbar-thumb{background:var(--pink-light); border-radius:999px;}
+  .cbtn{
+    position:absolute; top:130px; transform:translateY(-50%); z-index:5;
+    width:52px; height:52px; border-radius:50%; border:2px solid #fff; cursor:pointer;
+    background:var(--pink); color:#fff; font-size:28px; font-weight:900; line-height:1;
+    display:flex; align-items:center; justify-content:center; font-family:inherit;
+    box-shadow:0 4px 14px rgba(224,86,122,0.4); transition:background .15s, transform .15s;
+  }
+  .cbtn:hover{background:var(--pink-deep); transform:translateY(-50%) scale(1.07);}
+  .cbtn.prev{left:-10px;} .cbtn.next{right:-10px;}
+  .cbtn[hidden]{display:none;}
+
+  .bk{
+    flex:0 0 260px; width:260px; scroll-snap-align:start;
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    overflow:hidden; box-shadow:var(--shadow); display:flex; flex-direction:column;
+    transition:transform .15s;
+  }
+  .bk:hover{transform:translateY(-2px);}
+  .bk-cover{
+    display:flex; align-items:center; justify-content:center; position:relative; width:100%; aspect-ratio:1/1;
+    background:#FBEAEE; padding:10px; overflow:hidden; text-decoration:none; font-size:40px; color:#fff;
+  }
+  .bk-cover img{width:100%; height:100%; object-fit:contain; transition:transform .2s;}
+  .bk-cover:hover img{transform:scale(1.05);}
+  .bk-cover::after{
+    content:'🛒 구매 페이지로 이동'; position:absolute; left:0; right:0; bottom:0;
+    background:linear-gradient(0deg,rgba(58,42,51,.75),transparent);
+    color:#fff; font-size:11.5px; font-weight:700; text-align:center;
+    padding:18px 6px 7px; opacity:0; transition:opacity .15s;
+  }
+  .bk-cover.lk-insta::after{content:'📸 인스타에서 보기';}
+  .bk-cover.lk-site::after{content:'🔗 사이트 바로가기';}
+  .bk-cover.lk-none::after{content:'';}
+  .bk-cover:hover::after{opacity:1;}
+  .bk-tag{
+    position:absolute; top:8px; left:8px; z-index:2;
+    background:rgba(224,86,122,.92); color:#fff; font-size:11.5px; font-weight:700;
+    padding:3px 10px; border-radius:999px;
+  }
+  .bk-body{padding:14px 16px 16px; display:flex; flex-direction:column; gap:9px; flex:1;}
+  .bk-sub{font-size:11.5px; font-weight:800; color:var(--pink-deep);}
+  .bk-name{font-size:15px; font-weight:700; line-height:1.45;}
+  .bk-name a{text-decoration:none;}
+  .bk-name a:hover{color:var(--pink-deep);}
+  .bk-role{
+    font-size:12.5px; color:#5A4650; margin:0;
+    background:#FAFAFA; border-left:3px solid var(--line);
+    border-radius:8px; padding:8px 11px; line-height:1.65;
+  }
+  .bk-points{background:#FFF9E6; border:1px solid #FFE9A8; border-radius:10px; padding:11px 13px;}
+  .bk-points strong{display:block; font-size:11.5px; font-weight:800; color:#B8860B; margin-bottom:5px;}
+  .bk-pts{margin:0; padding-left:16px;}
+  .bk-pts li{font-size:12px; line-height:1.7; color:#6B5A20; margin-bottom:3px;}
+  .bk-pts li:last-child{margin-bottom:0;}
+  .bk.done .bk-cover img{opacity:.5; filter:grayscale(15%);}
+  .bk-stamp{
+    position:absolute; top:50%; left:50%; z-index:3; pointer-events:none;
+    transform:translate(-50%,-50%) rotate(-14deg) scale(.5);
+    border:4px solid #E0567A; color:#E0567A; background:rgba(255,255,255,.88);
+    font-size:20px; font-weight:900; letter-spacing:3px; border-radius:10px;
+    padding:6px 16px; opacity:0; transition:opacity .2s, transform .25s cubic-bezier(.34,1.56,.64,1);
+  }
+  .bk.done .bk-stamp{opacity:1; transform:translate(-50%,-50%) rotate(-14deg) scale(1);}
+  .check-btn{
+    width:100%; margin-top:auto; height:38px; border-radius:999px;
+    border:1.5px solid var(--line); background:#fff; color:var(--sub);
+    font-size:13px; font-weight:700; cursor:pointer; font-family:inherit; transition:all .15s;
+  }
+  .check-btn:hover{border-color:var(--pink-light); color:var(--pink-deep);}
+  .check-btn.on{background:var(--pink); border-color:var(--pink); color:#fff;}
+
+  .note{
+    background:var(--pink-bg); border-radius:13px; padding:14px 16px; margin-top:16px;
+    font-size:12.5px; line-height:1.85; color:#8A5B6B;
+  }
+  .note b{color:var(--pink-deep);}
+  .tab-nav{display:flex; gap:8px; margin-top:20px;}
+  .tab-nav button{
+    flex:1; border:1.5px solid var(--line); background:#fff; color:var(--pink-deep);
+    border-radius:14px; padding:14px 10px; font-size:13.5px; font-weight:800;
+    cursor:pointer; font-family:inherit; transition:all .15s;
+  }
+  .tab-nav button:hover{background:var(--pink-bg); border-color:var(--pink-light);}
+  .tab-nav button.main{background:var(--pink); border-color:var(--pink); color:#fff;}
+
+  .voice{
+    background:linear-gradient(135deg,#FFE9EF,#FFF1E6); border:1.5px solid #FFC6D6;
+    border-radius:var(--radius); padding:20px 22px; margin-top:20px;
+    font-size:14px; line-height:1.95; color:#8A5B6B;
+  }
+  .voice b{display:block; color:var(--pink-deep); font-size:15px; margin-bottom:8px;}
+
+  footer{
+    text-align:center; padding:40px 18px 56px; color:var(--sub); font-size:12.5px;
+    border-top:1px solid var(--line); margin-top:34px; line-height:1.8;
+  }
+  footer .warn{
+    background:var(--pink-bg); color:var(--pink-deep); padding:13px 18px;
+    border-radius:12px; display:inline-block; margin-bottom:13px; font-size:12.5px;
+  }
+  footer a{color:var(--pink-deep); font-weight:700; text-decoration:none;}
+
+  /* ── 검색 ── */
+  .search-box{
+    display:flex; align-items:center; gap:8px; background:var(--card);
+    border:1.5px solid var(--line); border-radius:999px; padding:12px 16px;
+  }
+  .search-box:focus-within{border-color:var(--pink);}
+  .search-box svg{flex-shrink:0; color:var(--pink-deep);}
+  .search-box input{
+    flex:1; border:none; outline:none; background:none; min-width:0;
+    font-size:14.5px; color:var(--ink); font-family:inherit;
+  }
+  .search-clear{
+    display:none; flex-shrink:0; border:none; background:var(--pink-bg); color:var(--pink-deep);
+    width:22px; height:22px; border-radius:50%; font-size:13px; line-height:1; cursor:pointer;
+  }
+  .search-clear.show{display:block;}
+  body.search-open{overflow:hidden;}
+  .bottom-nav{
+    position:fixed; left:0; right:0; bottom:0; z-index:60; display:flex;
+    background:var(--card); border-top:1px solid var(--line);
+    padding:6px 0 calc(6px + env(safe-area-inset-bottom));
+    box-shadow:0 -2px 12px rgba(58,42,51,.06);
+  }
+  .bnav{
+    flex:1; display:flex; flex-direction:column; align-items:center; gap:2px;
+    background:none; border:none; padding:6px 4px; color:var(--sub);
+    font-size:11px; font-family:inherit; cursor:pointer;
+  }
+  .bnav.active{color:var(--pink-deep); font-weight:700;}
+  .bnav.active svg{color:var(--pink-deep);}
+  .search-screen{
+    position:fixed; inset:0; z-index:55; background:var(--bg); display:flex; flex-direction:column;
+    opacity:0; pointer-events:none; transition:opacity .18s ease;
+  }
+  .search-screen.open{opacity:1; pointer-events:auto;}
+  .ss-head{background:var(--card); border-bottom:1px solid var(--line); padding:calc(16px + env(safe-area-inset-top)) 18px 14px;}
+  .ss-body{flex:1; overflow-y:auto; padding:18px 18px calc(84px + env(safe-area-inset-bottom));}
+  .ss-hint{text-align:center; color:var(--sub); font-size:14px; margin-top:52px; line-height:1.8;}
+  .search-grid{display:flex; flex-direction:column; gap:14px; max-width:520px; margin:0 auto;}
+  .search-grid .bk{flex:none; width:100%; scroll-snap-align:none;}
+
+  @media (max-width:600px){
+    .bk{flex-basis:220px; width:220px;}
+    nav.toc a{font-size:15px; padding:8px 13px;}
+    .insta,.share-btn{width:100%; justify-content:center;}
+    .cbtn{width:44px; height:44px; font-size:24px; top:112px;}
+    .cbtn.prev{left:-4px;} .cbtn.next{right:-4px;}
+    .sub-head{padding:16px 15px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="logo" src="character.png" alt="투빈맘 캐릭터">
+  <span class="badge">🍂 투빈맘's 자료나눔</span>
+  <h1>투빈맘's 초3💖<br>2학기 엄마표 로드맵</h1>
+  <p class="hero-sub">영어는 2점대 책을 반복하며 유창성을 다지고,<br>수학은 아이 속도에 맞춰 선행을 이어가는 2학기!</p>
+  <div class="hero-actions">
+    <a class="insta" href="https://www.instagram.com/2bin_mom/?hl=ko" target="_blank" rel="noopener">📸 @2bin_mom 인스타 보러가기</a>
+    <button type="button" class="share-btn" onclick="shareKakao(this)">💬 카톡으로 공유</button>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#guide" onclick="showTab('guide', event)">📖 가이드</a>
+  <a href="#math" onclick="showTab('math', event)">📐 수학</a>
+  <a href="#eng" onclick="showTab('eng', event)">🔤 영어</a>
+  <a href="#etc" onclick="showTab('etc', event)">✏️ 국어·한자·기타</a>
+</nav>
+
+<div class="wrap">
+
+  <!-- ══════ 가이드 ══════ -->
+  <section class="tab-section" id="guide">
+    <div class="sub-head g">
+      <span class="kick">GUIDE</span>
+      <h2>📖 시작하기 전에</h2>
+      <p>이번 2학기를 <b>어떤 루틴</b>으로 보내고 있는지 먼저 들려드릴게요.</p>
+    </div>
+    <div class="intro-box">
+    안녕하세요 :) <strong>투빈맘</strong>이에요 💖<br><br>
+    이번에도 초3 경빈이가 요즘 실제로 하고 있는 영어·수학 루틴이랑, 어떤 교재를 어떻게 쓰고 있는지 정리해봤어요 😊<br><br>
+    <strong>영어는 여전히 2점대 책을 많이 읽고 있어요.</strong><br>
+    아직 소리 내서 읽을 때 중간중간 멈추는 부분이 있어서, 3점대로 넘어가는 건 조금 미루고 2점대를 무한 반복 중이랍니다.<br>
+    하루 한 권 낭독은 꼭 챙기고 있고요.<br>
+    화상영어도 아직 엄청… 쉬운 단계라 그런지 정말 즐겁게 하고 있어요ㅎㅎ<br><br>
+    <strong>수학은 경빈이 수준에 맞춰 선행을 이어가고 있어요.</strong><br>
+    처음엔 학교 진도에 맞춰 공부하다가 뒤늦게 황소를 준비하면서 진도를 좀 당겼어요.<br>
+    황소 진도까지 따라잡진 못했고, 지금은 경빈이가 소화할 수 있는 속도로 하고 있답니다.<br><br>
+    원래는 <strong>응용 문제집 → 최상위 문제집</strong> 순서로 풀었는데, 5학년 과정에 들어가니 내용이 좀 더 복잡해지더라고요.<br>
+    그래서 요즘은 <strong>어려워하는 단원만 개념서랑 기본·응용 문제집을 추가해서</strong> 한 번 더 짚고 넘어가고 있어요!
+    <div class="goal-box">
+      <b>📌 아래에 정리된 내용</b>
+      ① <strong>수학</strong> 문제집<br>
+      ② <strong>영어</strong> 문제집<br>
+      ③ <strong>국어·한자·기타</strong> 문제집<br><br>
+      지금 쓰고 있는 교재랑 활용법을 하나씩 적어둘게요 😊
+    </div>
+  </div>
+
+<div class="voice">
+    <b>📘 투빈맘 한마디</b>
+    읽어보시면서 <strong>“우리 아이한테도 이렇게 해볼 수 있겠다!”</strong> 싶은 부분 있으셨나요? 😊<br><br>
+    엄마표는 정답이 있는 게 아니라, 👉 <strong>아이 속도에 맞게 계속 조율해가는 과정</strong>인 것 같아요 💗<br><br>
+    성빈이처럼 ✔️ 빠른 아이가 아니라도 괜찮고 ✔️ 양이 적어도 괜찮고, <strong>끊기지 않고 이어가는 게 더 중요한 시기</strong>더라구요 ✨<br><br>
+    처음부터 완벽하게 하려고 하기보다 ✔️ 할 수 있는 만큼만 가볍게 시작해보시고 ✔️ 아이 반응 보면서 천천히 늘려가시면, 그걸로도 충분히 좋은 방향이라고 생각해요 😊
+  </div>
+    <div class="tab-nav">
+      <button type="button" class="main" onclick="showTab('math')">📐 수학부터 보기 →</button>
+    </div>
+  </section>
+
+  <!-- ══════ 수학 ══════ -->
+  <section class="tab-section" id="math">
+    <div class="sub-head m">
+      <span class="kick">MATH</span>
+      <h2>📐 수학 — 선행 이어가기</h2>
+      <p>학교 진도에 맞추다 뒤늦게 황소를 준비하며 선행을 당겼어요.<br>지금은 경빈이가 소화할 수 있는 속도로, 어려운 단원은 <b>개념서+기본·응용을 더해</b> 한 번 더 짚어요.</p>
+    </div>
+    <div class="click-hint">💡 표지 사진을 클릭하면 구매 페이지로 연결돼요</div>
+    <div id="body-math"></div>
+    <div class="tab-nav">
+      <button type="button" class="main" onclick="showTab('eng')">🔤 영어 보기 →</button>
+    </div>
+  </section>
+
+  <!-- ══════ 영어 ══════ -->
+  <section class="tab-section" id="eng">
+    <div class="sub-head e">
+      <span class="kick">ENGLISH</span>
+      <h2>🔤 영어 — 2점대 무한반복</h2>
+      <p>3점대로 넘어가기 전, 2점대 책을 충분히 반복하며 <b>유창성</b>을 다지는 중이에요.<br>화상영어도 쉬운 단계지만 즐겁게 하고 있어요.</p>
+    </div>
+    <div class="click-hint">💡 표지 사진을 클릭하면 관련 페이지로 연결돼요</div>
+    <div id="body-eng"></div>
+    <div class="tab-nav">
+      <button type="button" onclick="showTab('math')">← 수학</button>
+      <button type="button" class="main" onclick="showTab('etc')">✏️ 국어·한자·기타 →</button>
+    </div>
+  </section>
+
+  <!-- ══════ 국어·한자·기타 ══════ -->
+  <section class="tab-section" id="etc">
+    <div class="sub-head k">
+      <span class="kick">ETC</span>
+      <h2>✏️ 국어 · 한자 · 기타</h2>
+      <p>한자는 <b>월·수·금 꾸준히</b>, 나머지는 요일별로 하나씩 돌아가며 해요.<br>매일 다른 걸 하니까 <b>지루하지 않고, 부담도 적어요.</b></p>
+    </div>
+    <div class="block-label">📅 요일별 한 장씩</div>
+    <div class="week" id="week-table"></div>
+    <div class="click-hint">💡 표지 사진을 클릭하면 구매 페이지로 연결돼요</div>
+    <div id="body-etc"></div>
+    <div class="tab-nav">
+      <button type="button" onclick="showTab('eng')">← 영어</button>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="intro-box" style="text-align:left; max-width:540px; margin:0 auto 18px;">
+    투빈맘은 앞으로도 👉 실제 해보고 효과 있었던 루틴들, 👉 시행착오까지 솔직하게 계속 나눠볼게요 💖<br><br>
+    혹시 보시고, 궁금한 점이나 고민되는 부분 있으시면 편하게 DM 주세요 💕<br>
+    늦더라도 꼭 확인하고, 답변 드리고 있답니다! (DM 주고받으면 친밀감도 올라간다구요~ 😆 아래 클릭 👇🏻)<br><br>
+    <a href="https://www.instagram.com/2bin_mom/?hl=ko" target="_blank" rel="noopener">📸 @2bin_mom 인스타 DM 보내기</a>
+  </div>
+  <div class="warn">⚠️ 본 자료는 투빈맘이 직접 정리한 콘텐츠입니다.<br>무단 복제·캡처·배포 금지 🚫<br>상업적 활용 시 법적 조치가 이루어질 수 있습니다.</div>
+  <div>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받을 수 있습니다.</div>
+  <div style="margin-top:9px;">© 2026 투빈맘 · <a href="https://www.instagram.com/2bin_mom/?hl=ko" target="_blank" rel="noopener">@2bin_mom</a></div>
+</footer>
+
+<div class="search-screen" id="searchScreen">
+  <div class="ss-head">
+    <div class="search-box">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="q" placeholder="교재 이름으로 찾기..." oninput="applySearch()" autocomplete="off">
+      <button type="button" class="search-clear" id="qclear" onclick="clearSearch()" aria-label="검색 지우기">✕</button>
+    </div>
+  </div>
+  <div class="ss-body" id="qresults">
+    <p class="ss-hint">🔍 교재 이름을 입력해보세요<br><span style="font-size:12.5px;">예) 쎈, 왕수학, 오투, 용선생</span></p>
+  </div>
+</div>
+
+<nav class="bottom-nav">
+  <button type="button" class="bnav active" id="navHome" onclick="goHome()">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/></svg>
+    <span>홈</span>
+  </button>
+  <button type="button" class="bnav" id="navSearch" onclick="openSearch()">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <span>검색</span>
+  </button>
+</nav>
+
+<script>
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+
+/* ══════════════════════════════════════════════════════════
+   교재 데이터 — 노션 원본 기준
+   linkType: coupang | insta | site | none
+   ══════════════════════════════════════════════════════════ */
+const BOOKS = {
+  /* ── 수학 ── */
+  deokle:{cat:"math", img:"9599820c.png", subject:"연산 · 빠른 선행", name:"필즈 더클셈 12권 (6-2 과정)",
+    role:"연산 속도 + 정확도 끌어올리는 상위 레벨 훈련용", when:"하루 1쪽씩",
+    pts:["학년보다 높은 연산으로 두뇌 체력 미리 만들어주기","매일 루틴으로 짧게 → 속도감 유지하는 용도","\"생각 없이 푸는 연산\"이 아니라 집중력 훈련용으로 활용"],
+    kw:"필즈 더클셈 연산 선행 초6", link:"", linkType:"none"},
+  ssokssem52:{cat:"math", img:"ssokssem52.png", subject:"연산 · 선행", name:"하루 한장 쏙셈(5-2)",
+    role:"교과 연산을 반복하며 계산력과 정확도를 탄탄하게 다지는 연산 교재", when:"하루 1장씩",
+    pts:["하루 정해진 분량씩 꾸준히 → 연산 루틴 유지하기","빠르게 푸는 것보다 → 실수 없이 정확하게 계산하기","반복 연산으로 계산을 익숙하게 → 교과 수학의 기본기 다지기"],
+    kw:"쏙셈 하루한장 연산 미래엔 5-2", link:"https://link.coupang.com/a/f4tKCZIayq", linkType:"coupang"},
+  wangsuhak42:{cat:"math", img:"wangsuhak42.png", subject:"교과수학 · 최상위", name:"점프 왕수학 최상위 4-2",
+    role:"교과 개념을 바탕으로 다양한 심화 문제를 풀며 수학적 사고력과 문제 해결력을 키우는 교재", when:"하루 2~3장씩",
+    pts:["기본 개념을 충분히 익힌 뒤 도전 → 심화 문제에 단계적으로 접근하기","어려운 문제는 바로 답을 보기보다 → 여러 방법으로 충분히 생각해보기","틀린 문제는 풀이 과정을 다시 확인 → 취약한 개념과 사고 과정 보완하기"],
+    kw:"왕수학 점프 최상위 심화 4-2 에듀왕", link:"https://link.coupang.com/a/f4uzpK1iqi", linkType:"coupang"},
+  ilsunwi51:{cat:"math", img:"ilsunwi51.png", subject:"교과 수학 · 선행", name:"일순위 기본응용 5-1",
+    role:"기본부터 응용·서술형까지 연습하는 초등 수학 교재", when:"헷갈리는 파트만",
+    pts:["새 단원 시작 전 → 연결개념으로 복습하기","틀린 유형은 → 쌍둥이 문제로 다시 풀기","익숙해진 유형은 → 서술형책에 풀이 써 보기"],
+    kw:"일순위 기본응용 서술형 5-1", link:"https://www.coupang.com/vp/products/9738625649?itemId=29146443710&vendorItemId=96191146995", linkType:"site"},
+  ssen51:{cat:"math", img:"ssen51.png", subject:"교과수학 · 선행", name:"쎈 초등수학 5-1",
+    role:"다양한 유형의 문제를 반복해서 풀며 교과 개념을 탄탄하게 다지고 문제 해결력을 키우는 교재", when:"하루 2~3장씩",
+    pts:["개념별 다양한 문제 유형 풀기 → 문제 유형에 익숙해지기","틀린 문제는 다시 풀어보며 → 부족한 개념과 유형 보완하기","기본부터 어려운 문제까지 단계적으로 → 난이도를 높이며 응용력 키우기"],
+    kw:"쎈 초등수학 유형 선행 5-1 좋은책신사고", link:"https://www.coupang.com/vp/products/9020982873?itemId=26449616057&vendorItemId=95514734750", linkType:"site"},
+  pyeongmyeon5:{cat:"math", img:"pyeongmyeon5.png", subject:"평면도형", name:"바쁜 초등학생을 위한 빠른 평면도형(5학년)",
+    role:"도형의 기초부터 각도·넓이까지 연습하는 초등 평면도형 총정리 교재", when:"하루 1~2장씩",
+    pts:["시작 전 진단평가 → 약한 부분 위주로 풀기","삼각형 넓이를 구할 때 → 밑변과 높이를 그림에 표시하기","복잡한 도형의 넓이는 → 아는 도형으로 나눠 구하기"],
+    kw:"바쁜초등학생 빠른 평면도형 5학년 이지스에듀", link:"https://www.coupang.com/vp/products/6518906735?itemId=14434044020&vendorItemId=81677748548", linkType:"site"},
+
+  /* ── 영어 ── */
+  video:{cat:"eng", img:"8392c25a.jpg", subject:"영어 노출", name:"영어 영상",
+    role:"영어를 공부가 아닌 일상 속에서 자연스럽게 익숙해지게 하는 영어 노출", when:"매일 30분 이상~",
+    pts:["아이가 좋아하는 영상 위주로 → 영어에 대한 흥미 유지하기","모든 내용을 이해하려 하기보다 → 영어의 소리와 표현에 자연스럽게 익숙해지기","식사 시간 등을 활용해 꾸준히 → 부담 없이 영어 노출량 늘리기"],
+    kw:"영어영상 흘려듣기 노출 유튜브",
+    link:"https://www.instagram.com/reel/DbXI6fzJNiH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", linkType:"insta"},
+  vipkid:{cat:"eng", img:"5ad5357b.jpg", subject:"화상영어", name:"VIPKid (북미권 100%)",
+    role:"실전 말하기 + 표현력 강화", when:"주 2회씩",
+    pts:["100% 북미 원어민 선생님과 1:1 수업","틀려도 말하게 하는 게 핵심","수업 전/후 복습과 예습 가능"],
+    kw:"VIPKid 화상영어 원어민 북미 말하기 스피킹", link:"https://kr.vipkid.com/website/account/signin?channel=K2000ZN", linkType:"site"},
+  jipdeut:{cat:"eng", img:"b992b735.png", subject:"집중듣기", name:"집중듣기: 2점대 영어책",
+    role:"2점대 영어책을 꾸준히 읽으며 리딩 실력과 영어 독해력을 한 단계 높이는 루틴", when:"하루 2~3권씩",
+    pts:["아이 수준에 맞는 2점대 책 위주로 → 부담 없이 리딩량 늘리기","모르는 단어에 매번 멈추기보다 → 문맥으로 내용 이해하며 읽기","다양한 책을 꾸준히 읽으며 → 어휘력과 문장 이해력 자연스럽게 키우기"],
+    kw:"집중듣기 집듣 2점대 AR 리딩", link:"https://link.coupang.com/a/f4vtxyOvTM", linkType:"coupang"},
+  nangdok:{cat:"eng", img:"5d35b0e6.jpg", subject:"낭독", name:"낭독하기: 2점대 영어책",
+    role:"영어책을 직접 소리 내어 읽으며 읽기 유창성과 영어 리딩 자신감을 키우는 루틴", when:"하루 1권씩",
+    pts:["아이 수준에 맞는 책을 소리 내어 읽기 → 영어 문장을 자연스럽게 읽는 연습하기","틀릴 때마다 바로 멈추기보다 → 문장 전체의 흐름을 살려 읽기","꾸준히 낭독하며 → 발음과 억양, 읽기 유창성 함께 키우기"],
+    kw:"낭독 소리내어읽기 유창성 2점대", link:"https://link.coupang.com/a/f4wm5TMNGK", linkType:"coupang"},
+  viplib:{cat:"eng", img:"2dd7df7d.jpg", subject:"영어 독서", name:"VIPKid 온라인 도서관",
+    role:"재미있는 그림책을 통해 영어를 자연스럽게 접하며 영어 독서의 즐거움과 언어 감각을 키우는 루틴", when:"하루 30분씩",
+    pts:["아이가 좋아하는 주제의 책 위주로 → 영어책에 대한 흥미 유지하기","그림과 이야기의 흐름을 함께 보며 → 문맥 속에서 자연스럽게 내용 이해하기","완벽하게 해석하기보다 즐겁게 읽기 → 부담 없이 영어 독서량 늘리기"],
+    kw:"VIPKid 온라인도서관 영어그림책 영어독서", link:"https://kr.vipkid.com/website/account/signin?channel=K2000ZN", linkType:"site"},
+  epic:{cat:"eng", img:"f0bedf07.png", subject:"영어 독서", name:"에픽(Epic) 온라인 도서관",
+    role:"재미있는 그림책을 통해 영어를 자연스럽게 접하며 영어 독서의 즐거움과 언어 감각을 키우는 루틴", when:"하루 30분씩",
+    pts:["아이가 좋아하는 주제의 책 위주로 → 영어책에 대한 흥미 유지하기","그림과 이야기의 흐름을 함께 보며 → 문맥 속에서 자연스럽게 내용 이해하기","완벽하게 해석하기보다 즐겁게 읽기 → 부담 없이 영어 독서량 늘리기"],
+    kw:"에픽 Epic 온라인도서관 영어그림책 영어독서", link:"https://www.getepic.com/", linkType:"site"},
+
+  /* ── 국어·한자·기타 (요일별) ── */
+  hanja:{cat:"etc", img:"hanja63.png", subject:"한자", name:"마법 급수한자 6급-3", day:"월수금",
+    role:"만화로 한자의 뜻과 소리를 익히는 6급 한자 검정 대비 교재", when:"월,수,금 1장씩",
+    pts:["새 한자는 → 도입 만화를 읽고 뜻과 소리 말해 보기","복습할 때는 → 뜻과 소리를 가리고 한자만 보고 맞혀 보기","자주 헷갈리는 글자는 → 그 한자가 들어간 낱말과 함께 익히기"],
+    kw:"마법 급수한자 6급 한자능력검정", link:"https://www.coupang.com/vp/products/9814550174?itemId=29393776272&vendorItemId=86150031544", linkType:"site"},
+  wanja:{cat:"etc", img:"751ee7a2.png", subject:"국어 어휘", name:"완자 공부력 어휘 (3B)", day:"월",
+    role:"교과 어휘 + 필수 어휘 정리", when:"1챕터씩",
+    pts:["국어 실력의 기본 = 어휘 → 주 1회 조금씩","뜻만 외우지 말고 문장 속에서 이해하기","틀린 단어는 따로 체크해서 반복"],
+    kw:"완자 공부력 어휘 국어 3B 비상", link:"https://link.coupang.com/a/f4zbpNkd9U", linkType:"coupang"},
+  sinmun:{cat:"etc", img:"350fc1df.png", subject:"문해력", name:"바빠 문해력 신문", day:"화",
+    role:"실생활 글 읽기 + 문해력 확장", when:"1챕터씩",
+    pts:["뉴스/정보 글 접하면서 배경지식 확대","부모와 대화 연결하면 효과 ↑","\"이게 무슨 말이야?\" 질문 유도하기"],
+    kw:"바빠 문해력 신문 이지스에듀 배경지식", link:"https://link.coupang.com/a/eubmWz", linkType:"coupang"},
+  dokhae:{cat:"etc", img:"c23c5832.png", subject:"국어 독해", name:"하루 한장 독해 3단계", day:"수",
+    role:"다양한 글을 읽고 문제를 풀며 독해력과 글을 이해하는 힘을 키우는 교재", when:"1장씩",
+    pts:["하루 정해진 분량씩 꾸준히 → 매일 읽고 이해하는 습관 만들기","답만 맞히기보다 → 글에서 근거를 찾아 문제 풀기","틀린 문제는 지문을 다시 읽으며 → 놓친 내용과 핵심 내용 확인하기"],
+    kw:"하루한장 독해 국어 3단계 미래엔", link:"https://link.coupang.com/a/f5FktAHrgq", linkType:"coupang"},
+  yoyak:{cat:"etc", img:"8d92ed9c.png", subject:"요약 독해", name:"4줄 요약 독해 세계명작", day:"목",
+    role:"세계명작을 읽고 핵심 내용을 요약하며 글의 중심 내용을 파악하는 힘을 키우는 독해 교재", when:"1챕터씩",
+    pts:["이야기를 읽고 핵심 내용 찾아보기 → 중요한 내용 골라내는 연습하기","긴 내용을 짧게 정리하며 → 요약하는 힘 키우기","세계명작을 활용해 독해 연습 → 독해력과 독서 경험 함께 쌓기"],
+    kw:"4줄요약 독해 세계명작 요약", link:"https://link.coupang.com/a/f4xhjstgvQ", linkType:"coupang"},
+  yongsun:{cat:"etc", img:"ec980f3a.jpg", subject:"사회 · 세계사", name:"용선생 세계사 독해 (3)", day:"금",
+    role:"세계사 기본 흐름 + 독해력 확장", when:"1챕터씩",
+    pts:["한국사와 병행 시 비교 이해 가능","이야기처럼 읽게 하면 흥미 유지 쉬움","시험용이 아니라 교양 + 배경지식용"],
+    kw:"용선생 세계사 독해 사회 사회평론", link:"https://link.coupang.com/a/eubaYW", linkType:"coupang"},
+  otu:{cat:"etc", img:"512e59ff.png", subject:"과학", name:"오투 초등과학 3-2", day:"주말",
+    role:"교과 개념을 익히고 다양한 문제를 풀며 과학 개념 이해와 문제 해결력을 키우는 교재", when:"2챕터씩",
+    pts:["개념과 그림·자료를 함께 살펴보며 → 과학 원리 이해하기","문제를 풀며 배운 개념 확인 → 교과 핵심 내용 탄탄하게 익히기","헷갈리는 단원은 다시 복습하며 → 부족한 개념 꼼꼼하게 보완하기"],
+    kw:"오투 초등과학 3-2 비상 과학", link:"https://link.coupang.com/a/f4xtg98B6y", linkType:"coupang"}
+};
+
+const CATS = [
+  {key:"math", label:"📐 수학 교재"},
+  {key:"eng",  label:"🔤 영어 루틴 & 교재"},
+  {key:"etc",  label:"✏️ 국어·한자·기타 교재"}
+];
+
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function bookHTML(slug){
+  const b = BOOKS[slug];
+  if (!b) return "";
+  const has = b.linkType !== "none" && b.link;
+  const rel = b.linkType === "coupang" ? "noopener nofollow sponsored" : "noopener";
+  const inner = `
+      <span class="bk-tag">${esc(b.when)}</span>
+      <img src="images/${b.img}" alt="${esc(b.name)} 표지" loading="lazy"
+           onerror="this.style.display='none'; this.parentElement.insertAdjacentText('beforeend','📘');">
+      <span class="bk-stamp">완료!</span>`;
+  const cover = has
+    ? `<a class="bk-cover lk-${b.linkType}" href="${esc(b.link)}" target="_blank" rel="${rel}" aria-label="${esc(b.name)} 페이지로 이동">${inner}</a>`
+    : `<div class="bk-cover lk-none">${inner}</div>`;
+  const nm = has
+    ? `<a href="${esc(b.link)}" target="_blank" rel="${rel}">${esc(b.name)}</a>`
+    : esc(b.name);
+  return `
+    <div class="bk" data-slug="${slug}">
+      ${cover}
+      <div class="bk-body">
+        <div class="bk-sub">${esc(b.subject)}</div>
+        <div class="bk-name">${nm}</div>
+        <div class="bk-role">${esc(b.role)}</div>
+        <div class="bk-points"><strong>💡 활용 포인트</strong><ul class="bk-pts">${b.pts.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+        <button type="button" class="check-btn" onclick="toggleDone('${slug}')">✅ 확인했어요!</button>
+      </div>
+    </div>`;
+}
+
+function renderAll(){
+  /* 요일 시간표 */
+  const week = Object.keys(BOOKS).filter(s => BOOKS[s].cat === "etc");
+  document.getElementById("week-table").innerHTML = week.map(s => `
+    <div class="week-row">
+      <div class="week-day">${BOOKS[s].day}</div>
+      <div class="week-what">${esc(BOOKS[s].name)}<span>${esc(BOOKS[s].subject)}</span></div>
+    </div>`).join("");
+
+  CATS.forEach((c, ci) => {
+    const slugs = Object.keys(BOOKS).filter(s => BOOKS[s].cat === c.key);
+    const id = "rail-" + c.key;
+    document.getElementById("body-" + c.key).innerHTML = `
+      <div class="progress-wrap">
+        <span>확인한 교재</span>
+        <div class="progress-bar"><i id="bar-${c.key}"></i></div>
+        <span id="cnt-${c.key}">0/${slugs.length}</span>
+        <button class="reset-btn" type="button" onclick="resetDone(this)">🔄 초기화</button>
+      </div>
+      <div class="block-label">
+        ${c.label} ${slugs.length}종
+        <span class="swipe">옆으로 넘겨보세요 →</span>
+      </div>
+      <div class="carousel-wrap">
+        <button type="button" class="cbtn prev" onclick="scrollRail('${id}',-1)" aria-label="이전">‹</button>
+        <div class="rail" id="${id}">${slugs.map(bookHTML).join("")}</div>
+        <button type="button" class="cbtn next" onclick="scrollRail('${id}',1)" aria-label="다음">›</button>
+      </div>`;
+  });
+  applyDoneState();
+}
+
+function scrollRail(id, dir){
+  const r = document.getElementById(id);
+  if (r) r.scrollBy({left: Math.round(r.clientWidth * 0.85) * dir, behavior:"smooth"});
+}
+
+/* 넘길 카드가 없으면 화살표 숨김 */
+function updateArrows(){
+  document.querySelectorAll(".carousel-wrap").forEach(w => {
+    const r = w.querySelector(".rail");
+    if (!r) return;
+    const can = r.scrollWidth - r.clientWidth > 4;
+    const p = w.querySelector(".cbtn.prev"), n = w.querySelector(".cbtn.next");
+    if (p) p.hidden = !can || r.scrollLeft <= 2;
+    if (n) n.hidden = !can || r.scrollLeft >= r.scrollWidth - r.clientWidth - 2;
+  });
+}
+document.addEventListener("scroll", e => {
+  if (e.target && e.target.classList && e.target.classList.contains("rail")) updateArrows();
+}, true);
+window.addEventListener("resize", updateArrows);
+
+/* ── 확인 체크 (브라우저에 저장) ── */
+const DONE_KEY = "2bin_3rd_fall_done";
+function getDone(){ try { return JSON.parse(localStorage.getItem(DONE_KEY) || "{}"); } catch(e){ return {}; } }
+function toggleDone(slug){
+  const d = getDone();
+  d[slug] = !d[slug];
+  try { localStorage.setItem(DONE_KEY, JSON.stringify(d)); } catch(e){}
+  applyDoneState();
+}
+function resetDone(btn){
+  if (btn._t) clearTimeout(btn._t);
+  try { localStorage.removeItem(DONE_KEY); } catch(e){}
+  applyDoneState();
+  btn.textContent = "✅ 초기화 완료!";
+  btn._t = setTimeout(() => { btn.textContent = "🔄 초기화"; }, 1500);
+}
+function applyDoneState(){
+  const d = getDone();
+  document.querySelectorAll(".bk[data-slug]").forEach(card => {
+    const on = !!d[card.dataset.slug];
+    card.classList.toggle("done", on);
+    const b = card.querySelector(".check-btn");
+    if (b){ b.classList.toggle("on", on); b.textContent = on ? "✅ 확인 완료!" : "✅ 확인했어요!"; }
+  });
+  CATS.forEach(c => {
+    const slugs = Object.keys(BOOKS).filter(s => BOOKS[s].cat === c.key);
+    const count = slugs.filter(s => d[s]).length;
+    const bar = document.getElementById("bar-" + c.key);
+    const cnt = document.getElementById("cnt-" + c.key);
+    if (bar) bar.style.width = Math.round((count / slugs.length) * 100) + "%";
+    if (cnt) cnt.textContent = count + "/" + slugs.length;
+  });
+}
+
+/* ── 탭 ── */
+function showTab(id, evt, opts){
+  opts = opts || {};
+  if (evt) evt.preventDefault();
+  document.querySelectorAll(".tab-section").forEach(s => s.classList.toggle("active", s.id === id));
+  document.querySelectorAll("nav.toc a").forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + id));
+  if (!opts.skipScroll){
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({behavior:"smooth", block:"start"});
+  }
+  /* 첫 진입에 해시를 남기면 새로고침 때 헤더가 가려지도록 자동 스크롤돼서 막는다 */
+  if (!opts.skipHash) history.replaceState(null, "", "#" + id);
+  updateArrows();
+}
+
+function initTab(){
+  const h = location.hash.replace("#", "");
+  const valid = ["guide", "math", "eng", "etc"];
+  const ok = valid.indexOf(h) >= 0;
+  showTab(ok ? h : "guide", null, {skipScroll:true, skipHash:!ok});
+  if (!ok){
+    window.scrollTo(0, 0);
+    setTimeout(() => window.scrollTo(0, 0), 0);
+    window.addEventListener("load", () => window.scrollTo(0, 0));
+  }
+}
+
+/* ── 검색 ── */
+const INDEX = Object.keys(BOOKS).map(slug => ({
+  slug,
+  hay: [BOOKS[slug].name, BOOKS[slug].kw, BOOKS[slug].subject, BOOKS[slug].role,
+        BOOKS[slug].when, BOOKS[slug].day || "", ...BOOKS[slug].pts].join(" ").toLowerCase()
+}));
+function getQ(){ const i = document.getElementById("q"); return i ? i.value.trim().toLowerCase() : ""; }
+function applySearch(){
+  const q = getQ();
+  document.getElementById("qclear").classList.toggle("show", !!q);
+  const box = document.getElementById("qresults");
+  if (!q){
+    box.innerHTML = `<p class="ss-hint">🔍 교재 이름을 입력해보세요<br><span style="font-size:12.5px;">예) 쎈, 왕수학, 오투, 용선생</span></p>`;
+    return;
+  }
+  const m = INDEX.filter(e => e.hay.includes(q));
+  box.innerHTML = m.length
+    ? `<div class="search-grid">${m.map(e => bookHTML(e.slug)).join("")}</div>`
+    : `<p class="ss-hint">검색 결과가 없어요 🥲<br>다른 이름으로 찾아보세요</p>`;
+  applyDoneState();
+}
+function clearSearch(){
+  const i = document.getElementById("q");
+  if (i) i.value = "";
+  document.getElementById("qclear").classList.remove("show");
+  applySearch();
+  if (i) i.focus();
+}
+function openSearch(){
+  document.getElementById("searchScreen").classList.add("open");
+  document.body.classList.add("search-open");
+  document.getElementById("navHome").classList.remove("active");
+  document.getElementById("navSearch").classList.add("active");
+  setTimeout(() => { const i = document.getElementById("q"); if (i) i.focus(); }, 200);
+}
+function goHome(){
+  document.getElementById("searchScreen").classList.remove("open");
+  document.body.classList.remove("search-open");
+  document.getElementById("navSearch").classList.remove("active");
+  document.getElementById("navHome").classList.add("active");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && document.getElementById("searchScreen").classList.contains("open")) goHome();
+});
+
+function shareKakao(btn){
+  const url = location.href;
+  if (navigator.share){ navigator.share({title:document.title, url}).catch(() => {}); return; }
+  const t = document.createElement("textarea");
+  t.value = url; t.style.position = "fixed"; t.style.opacity = "0";
+  document.body.appendChild(t); t.select();
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch(e){ ok = false; }
+  document.body.removeChild(t);
+  if (btn._timer) clearTimeout(btn._timer);
+  btn.classList.add("copied");
+  btn.textContent = ok ? "✅ 링크 복사완료!" : "🔗 " + url;
+  btn._timer = setTimeout(() => { btn.classList.remove("copied"); btn.textContent = "💬 카톡으로 공유"; }, ok ? 1800 : 4000);
+}
+
+renderAll();
+initTab();
+updateArrows();
+</script>
+</body>
+</html>
